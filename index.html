@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Karthik Reddy Kovvuru</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:karthik@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: MySelf -->
+    <section class="details-section">
+      <div class="text">
+        <h2>Hi, I'm Karthik </h2>
+        <h2 class="developer-card">I am a Developer</h2>
+        <p>My Self Karthik Reddy Kovvuru I Completed My Post Graduation in Master of Computer Applications from Annamacharya Institute of Technology and Sciences, Rajampet. I Secured a CGPA of 8.7. I Completed My Under Graduation in Bachelor of Commerce[Computers] from Rani Tirumala Devi Degree College, Proddatur with CGPA of 7.6. I Completed My Inter in MPC from Sri Chaitanya Junior College, Vijayawada with 86.3%.I Completed 10th from Bhashyam High School, Guntur with CGPA of 7.8.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#Project">
+            <i class="fa-solid fa-pen"></i>
+            <span>Project</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="./WhatsApp Image 2023-07-29 at 18.00.47.jpg" alt="image">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I have skills in HTML, CSS, JavaScript, Python, and MySQL. I can design responsive web interfaces, enhance functionality with JavaScript, develop backend solutions using Python, and manage databases with MySQL. My expertise allows me to build full-stack applications efficiently, integrating frontend and backend technologies for seamless user experiences.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="./html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./Python-Logo.jpg" alt="Python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="./png-transparent-mysql-round-logo-tech-companies-thumbnail.png" alt="Mysql logo">
+          <span>Mysql</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Project -->
+    <section id="Project" class="Project-section">
+      <h2>Project</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="./bus_electrique_prague.jpg">
+          <p>Data Driven Energy Economy Prediction for Electric city buses</p>
+        </div>
+
+        <div class="text">
+          "Developed a model for precise energy demand prediction in battery electric buses 
+          (BEB), achieving over 94% accuracy.
+          Developed 5+ features to analyze speed patterns, improving vehicle energy efficiency by 10%.
+          Evaluated KNN and Random Forest algorithms, highlighting differences in accuracy and robustness; 
+          findings enabled a 30% improvement in predictive modeling for vehicle energy usage within real-world 
+          fleet operations.
+          Generated detailed reports on transportation patterns that facilitated strategic decision-making for 
+          management; these insights helped streamline operations, achieving an average improvement rate of 
+          10% in route planning effectiveness each quarter."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          email : karthikreddykovvuru@gmail.com <br>
+          LinkedIn : https://www.linkedin.com/in/karthik-reddy-kovvuru-9080a7272/. <br>
+          GitHub : https://github.com/karthikreddykovvuru. <br>
+          I am based in Hyderabad, India and always open to new opportunities in web development and software engineering.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
